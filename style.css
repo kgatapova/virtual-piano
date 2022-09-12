@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: gainsboro;
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.white-keys {
+    position: absolute;
+    display: flex;
+    width: 378px;
+    height: 254px;
+}
+.black-keys {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 378px;
+    height: 254px;
+    align-items: flex-start;
+}
+kbd {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+.white-keys kbd {
+    width: 50px;
+    height: 250px;
+    background-color: white;
+    line-height: 250px;
+    text-align: center;
+}
+.black-keys kbd {
+    width: 20px;
+    height: 150px;
+    background-color: black;
+    line-height: 150px;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+#wKey {
+    left: 42px;
+}
+#eKey {
+    left: 96px;
+}
+#tKey {
+    left: 204px;
+}
+#yKey {
+    left: 258px;
+}
+#uKey {
+    left: 312px;
+}
